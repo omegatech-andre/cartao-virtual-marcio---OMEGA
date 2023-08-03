@@ -15,8 +15,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: local;
-    height: 560px;
+    background-attachment: fixed;
 
 }
 
@@ -95,7 +94,6 @@ path{
     .fa-solid{
         cursor: pointer;
         margin: 25px;
-        transform: rotate(180deg);
         
         transition: all 1s ease;
     }
